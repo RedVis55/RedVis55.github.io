@@ -23,7 +23,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    left:90%;
+    overflow: hidden;
 }
 
 #road{
@@ -34,8 +34,8 @@
 }
 
 #speed{
-    position:absolute;
-    top:20%;
+    position:relative;
+    top:0%;
 }
 
 #motto{
@@ -46,3 +46,8 @@
 #hometext{
     text-align:center;
 }
+
+li{
+    display: inline;
+}
+
