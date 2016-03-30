@@ -19,6 +19,16 @@
     font-family: Century Gothic, sans-serif;
 }
 
+#container_deliv{
+    background-color:#EBEBEB;
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0%;
+    top:20%;
+    font-family: Century Gothic, sans-serif;
+}
+
 #menu{
     list-style-type: none;
     margin: 0;
@@ -33,6 +43,10 @@
     opacity:0.2;
 }
 
+#road:hover { 
+  opacity: 0.4; 
+}
+
 #speed{
     position:relative;
     top:0%;
@@ -40,7 +54,9 @@
 
 #motto{
     text-align:center;
+    font-family:Century Gothic, sans-serif;
     font-weight:900;
+    font-weight:bold;
 }
 
 #hometext{
@@ -49,5 +65,29 @@
 
 li{
     display: inline;
+}
+
+#footer{
+    position:absolute;
+    top:80%;
+    color:white;
+    text-align:center;
+
+}
+
+#footer_deliv{
+    display:block;
+    color:white;
+    position:absolute;
+    top:100%;
+    height:50%;
+    width:100%;
+    
+}
+
+#copyright{
+    color:black;
+    position:absolute;
+    text-align:center;
 }
 
