@@ -7,6 +7,7 @@
     top:0%;
     font-family: Century Gothic, sans-serif;
     list-style-type:none;
+    color:white;
 }
 
 #container{
@@ -63,8 +64,18 @@
     text-align:center;
 }
 
-li{
+.menu_content{
     display: inline;
+}
+
+.menu_content {
+    float: left;
+}
+
+.menu_links{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }
 
 #footer{
